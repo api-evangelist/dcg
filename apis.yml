@@ -1,9 +1,27 @@
 aid: dcg
 name: DCG
-description: 'DCG is a company surfaced as a portfolio company of ribbit-capital, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Digital Currency Group (DCG) is a crypto-industry venture and holding company that
+  describes itself as the enduring investor and operator of the crypto industry. Investing in digital
+  currencies and blockchain since 2012, DCG has built a portfolio of 200+ equity investments, 50+ fund
+  investments, and 30+ token and digital-asset positions across 25+ countries. It owns and operates
+  category-leading subsidiaries including Grayscale (crypto asset management), Foundry (mining and
+  staking infrastructure), CoinDesk (media, data and events), Genesis (institutional financial
+  services), Luno (consumer wallet), HQ, and TradeBlock. DCG is a corporate holding and investment
+  company and does not publish a public developer API; this profile was added to the API Evangelist
+  network as a portfolio-company lead.'
 url: https://raw.githubusercontent.com/api-evangelist/dcg/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62fb936491c38403eca675b6/6308973632dda038f7131e44_Logo-white.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto
+- Cryptocurrency
+- Blockchain
+- Digital Assets
+- Venture Capital
+- Investment
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dcg-domain-security.yml
 - type: Website
   url: https://dcg.co
+- type: Portfolio
+  url: https://dcg.co/portfolio
+- type: Careers
+  url: https://jobs.dcg.co/
+- type: Contact
+  url: https://dcg.co/contact
+- type: PrivacyPolicy
+  url: https://dcg.co/privacy
+- type: TermsOfService
+  url: https://dcg.co/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/digital-currency-group
+- type: Twitter
+  url: https://twitter.com/DCGco
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
