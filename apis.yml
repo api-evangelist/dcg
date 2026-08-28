@@ -10,6 +10,17 @@ description: 'Digital Currency Group (DCG) is a crypto-industry venture and hold
   company and does not publish a public developer API; this profile was added to the API Evangelist
   network as a portfolio-company lead.'
 url: https://raw.githubusercontent.com/api-evangelist/dcg/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
